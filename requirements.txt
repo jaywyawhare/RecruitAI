@@ -1,0 +1,6 @@
+typing
+fitz
+pdfplumber
+pymupdf
+presidio_analyzer
+presidio_anonymizer
