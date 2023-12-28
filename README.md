@@ -57,24 +57,19 @@ Compared to traditional ATS, RecruitAI significantly improves hiring efficiency 
 ## Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/jaywyawhat/RecruitAI.git
-```
+    ```bash
+    git clone https://github.com/jaywyawhat/RecruitAI.git
+    ```
 
 1. Install the required packages:
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 1. Download the [Spacy](https://spacy.io/) model:
-```bash
-python -m spacy download en_core_web_sm
-```
-
-1. Run the setup script:
-```bash
-bash setup.sh
-```
+    ```bash
+    python -m spacy download en_core_web_sm
+    ```
 
 For more detailed, refer to the [documentation](#).
 
