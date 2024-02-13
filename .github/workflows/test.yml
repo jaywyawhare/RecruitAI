@@ -19,9 +19,6 @@ jobs:
       with:
         python-version: 3.8
 
-    - name: Install spaCy model
-      run: python -m spacy download en_core_web_lg
-
     - name: Install dependencies
       run: pip install -r requirements.txt
 
