@@ -38,6 +38,9 @@ class PDFAnalyzer:
         pdf_document = fitz.open(self.pdf_path)
         for page in pdf_document:
             for link in page.get_links():
-                urls.append(link['uri'])
+                try:
+                    urls.append(link['uri'])
+                except:
+                    pass
         return urls
 
