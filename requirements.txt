@@ -8,3 +8,5 @@ presidio_anonymizer
 faiss-gpu
 faiss-cpu
 numpy
+coveralls
+pytest
