@@ -1,5 +1,11 @@
 # RecruitAI - Automated Tracking System
 
+<p align="center">
+    <a href="https://coveralls.io/repos/github/jaywyawhare/RecruitAI">
+        <img src="https://coveralls.io/repos/github/jaywyawhare/RecruitAI/badge.svg?branch=master" alt="Coverage Status">
+    </a>
+</p>
+
 RecruitAI is an advanced Automated Tracking System designed to efficiently parse and analyze resumes using cutting-edge technology. Unlike traditional ATS, RecruitAI leverages state-of-the-art techniques for enhanced resume processing and candidate evaluation.
 
 ## Table of Contents
