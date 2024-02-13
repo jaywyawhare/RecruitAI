@@ -1,6 +1,10 @@
 typing
-fitz
 pdfplumber
 pymupdf
+torch
+transformers
 presidio_analyzer
 presidio_anonymizer
+faiss-gpu
+faiss-cpu
+numpy
