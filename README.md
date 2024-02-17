@@ -83,6 +83,44 @@ For more detailed, refer to the [documentation](#).
 
 We welcome contributions from the community! If you'd like to contribute to RecruitAI, please follow our [Contribution Guidelines](CONTRIBUTING.md).
 
+Steps to contribute:
+
+1. Fork the repository.
+    ```bash
+    git clone https://github.com/jaywyawhare/RecruitAI.git
+    ```
+
+2. Create a new branch for your feature.
+    ```bash
+    git checkout -b branch-name
+    ```
+
+    - Please ensure that branches are named descriptively and follow the naming convention.
+
+    ### Naming Convention
+
+    - **Feature Branches:** `feature/{feature-name}`
+    - **Bugfix Branches:** `bugfix/{bug-name}`
+    - **Documentation Branches:** `docs/{doc-name}`
+    - **Refactoring Branches:** `refactor/{refactor-name}`
+
+3. Make your changes and commit them.
+    ```bash
+    git add .
+    git commit -m "{commit-message}"
+    ```
+
+    - Please ensure that your commit messages are concise and descriptive.
+
+4. Push your changes to your fork.
+    ```bash
+    git push origin branch-name
+    ```
+
+5. Open a pull request to the `dev` branch of the main repository.
+
+    - Please ensure that your pull request title and description are descriptive and informative.
+
 ## License
 
 This project is licensed under the [DBaJ-NC-CFL](./LICENCE.md).
