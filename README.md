@@ -1,7 +1,7 @@
 # RecruitAI - Automated Tracking System
 
 <p align="center">
-    <a href="https://coveralls.io/repos/github/jaywyawhare/RecruitAI">
+    <a href="https://coveralls.io/github/jaywyawhare/RecruitAI">
         <img src="https://coveralls.io/repos/github/jaywyawhare/RecruitAI/badge.svg?branch=master" alt="Coverage Status">
     </a>
 </p>
