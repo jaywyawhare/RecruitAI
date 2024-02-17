@@ -8,5 +8,6 @@ presidio_anonymizer
 faiss-gpu
 faiss-cpu
 numpy
+sentence_transformers
 coveralls
 pytest

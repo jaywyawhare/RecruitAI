@@ -1,13 +1,17 @@
 from parser.resume_operations import ResumeAnalyzer
 from parser.pdf_operations import PDFAnalyzer
 from parser.presidio_operations import PresidioAnalyzer
-
+from similarity.vectorization_operations import VectorAnalyzer
+from similarity.similarity_operations import SimilarityAnalyzer
 from typing import Union
+import re
+
 
 class ResumeParser:
     def __init__(self, pdf_path: str):
         self.pdf_path = pdf_path
         self.text = PDFAnalyzer(self.pdf_path).get_text()
+        self.text = re.sub(r'[^\x00-\x7F]+', '', self.text)
         self.links = PDFAnalyzer(self.pdf_path).get_links()
         self.name = PresidioAnalyzer(self.text).get_name()
         self.personal_details = PresidioAnalyzer(self.text).get_personal_details()
@@ -45,8 +49,3 @@ class ResumeParser:
         self.output["Formatted Output"] = self.formatted_output
 
         return self.output
-
-
-if __name__ == "__main__":
-    print(ResumeParser("ML.pdf").get_output())
-
