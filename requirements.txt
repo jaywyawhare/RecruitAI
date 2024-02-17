@@ -8,7 +8,6 @@ presidio_anonymizer
 faiss-gpu
 faiss-cpu
 numpy
-json
 sentence_transformers
 coveralls
 pytest
