@@ -1,8 +1,8 @@
-from parser.resume_operations import ResumeAnalyzer
-from parser.pdf_operations import PDFAnalyzer
-from parser.presidio_operations import PresidioAnalyzer
-from similarity.vectorization_operations import VectorAnalyzer
-from similarity.similarity_operations import SimilarityAnalyzer
+from src.parser.resume_operations import ResumeAnalyzer
+from src.parser.pdf_operations import PDFAnalyzer
+from src.parser.presidio_operations import PresidioAnalyzer
+from src.similarity.vectorization_operations import VectorAnalyzer
+from src.similarity.similarity_operations import SimilarityAnalyzer
 from typing import Union
 import re
 
