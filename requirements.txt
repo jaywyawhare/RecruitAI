@@ -6,6 +6,6 @@ transformers
 presidio_analyzer
 presidio_anonymizer
 sentence_transformers
-
+streamlit
 pytest
 coveralls
